@@ -66,11 +66,4 @@ ile ekran kartının kullanılıp kullanmadığına bakıldı ve
 	torch.cuda.get_device_name(0)
 ile ekran akrtı bilgisine bakıldı(RTX3050Tİ)
 
-cuda'nın versiyonları arasında rtx3050ti ekran kartım ile 12.3 12.0 11.7 ve 11.3 test ettim. hata almadan kurulum yaptığım sadece 11.3 oldu ve farklı insanlara danışmam sonucu
-11.3'ün 3050ti için uygun olduğunu anladım. farklı bir yerel ubuntu kurarak 11.7 veya 12.3 için kurulumu tekrar deneyeceğim.
-
-alpaca dataseti ile 1-10-20-80 epochluk eğitimler yapıldı. 
-Grafik verilerine bakıldı(grafik üzerinde eğim ne kadar düşükse eğitim sonucu o kadar kalitelidir.)
-roboflow sitesinde 20 resimlik 10 epoch eğitim yapıldı. 
-yolov8 ile segmentation öğrenildi. dataset hazırlanışı izlendi.
 
