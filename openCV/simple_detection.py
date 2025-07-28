@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Görseli yükle
-img = cv2.imread('resim.jpg')
+img = cv2.imread('simple_detection.jpg')
 
 # Görüntüyü griye çevir (siyahı bulmak için)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
